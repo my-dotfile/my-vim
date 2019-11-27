@@ -17,8 +17,8 @@
 ############################  SETUP PARAMETERS
 app_name='my-vim'
 [ -z "$APP_PATH" ] && APP_PATH="$HOME/.my-vim"
-[ -z "$REPO_URI" ] && REPO_URI='https://github.com/wzshiming/my-vim.git'
-[ -z "$REPO_BRANCH" ] && REPO_BRANCH='3.0'
+[ -z "$REPO_URI" ] && REPO_URI='https://github.com/my-dotfile/my-vim.git'
+[ -z "$REPO_BRANCH" ] && REPO_BRANCH='master'
 debug_mode='0'
 fork_maintainer='0'
 [ -z "$VUNDLE_URI" ] && VUNDLE_URI="https://github.com/gmarik/vundle.git"
