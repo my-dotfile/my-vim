@@ -1,13 +1,6 @@
-# spf13-vim : Steve Francia's Vim Distribution
+# my-vim : Steve Francia's Vim Distribution
 
-                    __ _ _____              _
-         ___ _ __  / _/ |___ /      __   __(_)_ __ ___
-        / __| '_ \| |_| | |_ \ _____\ \ / /| | '_ ` _ \
-        \__ \ |_) |  _| |___) |_____|\ V / | | | | | | |
-        |___/ .__/|_| |_|____/        \_/  |_|_| |_| |_|
-            |_|
-
-spf13-vim is a distribution of vim plugins and resources for Vim, Gvim and [MacVim].
+Forkd from [spf13/spf13-vim](https://github.com/spf13/spf13-vim)
 
 It is a good starting point for anyone intending to use VIM for development running equally well on Windows, Linux, \*nix and Mac.
 
@@ -25,33 +18,15 @@ Lastly (and perhaps, most importantly) It is completely cross platform. It works
 ## Requirements
 To make all the plugins work, specifically [neocomplete](https://github.com/Shougo/neocomplete.vim), you need [vim with lua](https://github.com/Shougo/neocomplete.vim#requirements).
 
-## Linux, \*nix, Mac OSX Installation
+## Installation
+Requires:
+ * Git 1.7+ 
+ * Vim 7.3+
 
-The easiest way to install spf13-vim is to use our [automatic installer](https://j.mp/spf13-vim3) by simply copying and pasting the following line into a terminal. This will install spf13-vim and backup your existing vim configuration. If you are upgrading from a prior version (before 3.0) this is also the recommended installation.
-
-*Requires Git 1.7+ and Vim 7.3+*
-
-```bash
-
-    curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 ```
-
-If you have a bash-compatible shell you can run the script directly:
-```bash
-
-    sh <(curl https://j.mp/spf13-vim3 -L)
+$ git clone https://github.com/my-dotfile/my-tmux ~/.my-vim
+$ ~/.my-vim/install.sh
 ```
-
-## Installing on Windows
-
-On Windows and \*nix [Git] and [Curl] are required. Also, if you haven't done so already, you'll need to install [Vim].
-The quickest option to install all three dependencies ([Git], [Curl], [Vim] and [spf13-vim]) is via [Chocolatey] NuGet. After installing [Chocolatey], execute the following commands on the _command prompt_:
-
-    C:\> choco install spf13-vim
-
-_Note: The [spf13-vim package] will install Vim also!_
-
-If you want to install [msysgit], [Curl] and [spf13-vim] individually, follow the directions below.
 
 ### Installing dependencies
 
