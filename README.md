@@ -24,7 +24,7 @@ Requires:
  * Vim 7.3+
 
 ```
-$ git clone https://github.com/my-dotfile/my-tmux ~/.my-vim
+$ git clone https://github.com/my-dotfile/my-vim ~/.my-vim
 $ ~/.my-vim/install.sh
 ```
 
